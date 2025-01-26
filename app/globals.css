@@ -14,6 +14,22 @@
   }
 }
 
+@layer{
+  .nav_bar{
+    @apply flex m-0 justify-center text-center font-semibold bg-slate-800 h-12 items-center 
+  }
+  .nav_bar ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+  }
+  .nav_bar li{
+    @apply text-white hover:text-blue-300 cursor-pointer border-b hover:border-gray-400
+  }
+}
+
 body {
   color: var(--foreground);
   background: var(--background);

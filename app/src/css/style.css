@@ -1,0 +1,36 @@
+.navigation__divisions{
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+}
+
+.navigation__divisions ul{
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0 10px;
+    justify-content: space-evenly;
+    margin: auto;
+    text-align: center;
+}
+.navigation__divisions ul li{
+    list-style: none;
+}
+.navigation__divisions ul li :hover{
+    border-bottom: 1px solid white;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+}
